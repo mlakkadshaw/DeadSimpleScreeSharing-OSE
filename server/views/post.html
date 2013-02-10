@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen share</title>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<style type='text/css'>
+ #connection_status {
+  float: right;
+ }
+</style>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src='/js/socket.io.min.js'></script>
+<script type="text/javascript" src='/js/bootstrap.min.js'></script>
+<script type="text/javascript" src='/js/bootstrap-tooltip.js'></script>
+<script type="text/javascript" src='/js/bootstrap-popover.js'></script>
+</head>
+
+<body>
+  <div class='container-fluid' style='margin-top:10px'>
+    <div class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="#">Dead Simple Screen Sharing</a>  
+      <a class='brand' id='connection_status'>No Connection</a>
+      <ul class='nav' style='float:right;'>
+        <li id='about_pop' data-toggle='popover' data-title='About Me' data-content='Hi, I am Freelance Web and Mobile developer I like to create new and awsome stuff.' data-placement='bottom' data-trigger='manual'><a href='#'>About Me</a></li>
+      </ul>
+      
+
+    </div>
+  </div>
+
+  <div class='span12'>
+    <img id='screenshot'></img>
+  </div>
+</div>
+<script type="text/javascript" src='/js/post.js'></script>
+</body>
+</html>
