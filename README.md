@@ -3,6 +3,7 @@ DeadSimpleScreeSharing
 
 A simple screen sharing app written in node.js that allows you to share you screen with anyone right from your browser
 
+To learn more, read the [blog post](http://blog.mohammedlakkadshaw.com/Deadsimplescreensharing_overview.html) and visit the [project page](http://deadsimplescreensharing.com)
 ## LICENSE - "MIT License"
 
 Copyright (c) 2013 Mohammed Lakkadshaw
