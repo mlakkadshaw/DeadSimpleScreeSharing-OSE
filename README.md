@@ -1,5 +1,7 @@
-DeadSimpleScreeSharing
+DeadSimpleScreeSharing - OSE (Open Source Edition)
 ======================
+
+**PLEASE NOTE:** DeadSimpleScreenSharing OSE and the commercial version of DeadSimpleScreenSharing are two completely separate products. They do not share any code base and behave very differently both with regards to management and performance. Hence do not use one to evaluate the other.
 
 A simple screen sharing app written in node.js that allows you to share you screen with anyone right from your browser
 
